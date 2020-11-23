@@ -299,7 +299,6 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
             plusScoreBoard.resetAnswer();
             backgroundmusic.start();
-
             while (isRunning) {
                 Canvas canvas = surfaceHolder.lockCanvas();
                // backgroundmusic.start();
